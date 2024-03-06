@@ -1,0 +1,12 @@
+[package]
+name = "sm_test_1"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+# smlang = { git = 'https://github.com/MartinBroers/smlang-rs.git', branch = 'add-transition-callback' }
+smlang = { git = 'https://github.com/x37v/smlang-rs.git', branch = 'main', features = ['graphviz']}
+rand = "0.8.5"
+getch = "0.3.1"
